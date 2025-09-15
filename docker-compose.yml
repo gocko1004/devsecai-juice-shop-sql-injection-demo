@@ -1,0 +1,10 @@
+services:
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    container_name: devsecai-juice-shop
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+
