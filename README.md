@@ -24,4 +24,4 @@ This lab shows:
 - Which defenses prevent it.
 
 ## Safety
-For education only. Do not use these techniques outside this lab.
+For education only. Do not use these techniques outside this lab please.
